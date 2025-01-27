@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="482.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller.StatisticsController">
+   <children>
+      <TableView fx:id="staticsTable" layoutY="53.0" prefHeight="429.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="player" prefWidth="277.3333435058594" text="Player" />
+          <TableColumn fx:id="score" prefWidth="322.0" text="Score" />
+        </columns>
+      </TableView>
+      <Label layoutX="7.0" layoutY="13.0" text="Statistics" textFill="#241ece">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
